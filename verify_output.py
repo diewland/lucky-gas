@@ -3,6 +3,7 @@ from pprint import pprint as pp
 
 bulk = [ f for f in glob.glob('./json/*.json') ]
 
+# generated value
 v = []
 for b in bulk:
     data = json.load(open(b))
@@ -10,4 +11,10 @@ for b in bulk:
     v.append(data["attributes"][0]["value"])
 
 v.sort()
-pp(v)
+#print(v)
+
+# references
+ref = [ "{:.2f}".format(r/100).zfill(5) for r in range(0, 10_000) ]
+#print(ref)
+
+print(v == ref)
