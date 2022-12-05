@@ -3,7 +3,7 @@ from datetime import datetime
 from pprint import pprint as pp
  
 NAME = "Lucky Gas"
-DESC = "*****" # TODO TODO TODO
+DESC = "Give away prizes up to 300$ every 9th of every month using the result of BURN ETH Volume 30 days from the website https://ultrasound.money/ Time reference by https://vclock.com/time/ 20.00 UTC+7 by using 4 digits to produce prize results XX.XX such as 12.34, 45.67, 80.34. Prizes distributed according to the amount held [1 Apetmism = 1$ (Max 10$) and + 50% Creator Fee] are prizes that luckyGas holders match the prizes drawn."
 IMG = "https://diewland.github.io/lucky-gas-{}/{}.png"
 ENGINE = "Jigsaw Engine"
 
