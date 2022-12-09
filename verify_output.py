@@ -1,7 +1,7 @@
 import json, glob
 from pprint import pprint as pp
 
-bulk = [ f for f in glob.glob('./json/*.json') ]
+bulk = [ f for f in glob.glob('./json_revealed/*.json') ]
 
 # generated value
 v = []

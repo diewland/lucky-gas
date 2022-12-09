@@ -7,7 +7,7 @@ DESC = "Every month on the 9th of the month at 1pm UTC, we will use the result o
 IMG = "https://diewland.github.io/lucky-gas-{}/{}.png"
 ENGINE = "Jigsaw Engine"
 
-OUTPUT_DIR = "./json"
+OUTPUT_DIR = "./json_revealed"
 MAX_SUPPLY = 10_000
 SHUFFLE_TIME = 99
 
