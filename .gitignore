@@ -1,5 +1,2 @@
 .DS_Store
 *.swp
-
-# remove when minted-out + push to repo
-json_revealed*
